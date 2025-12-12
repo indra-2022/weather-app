@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Weather Data Fetcher</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="app-header">
+      <h1>Weather Data Fetcher</h1>
+      <p>Get real-time weather by city or your location</p>
+    </header>
+
+    <main class="app-main">
+      <section class="controls">
+        <div class="input-group">
+          <input
+            id="cityInput"
+            type="text"
+            placeholder="Enter city name (e.g. Kolkata)"
+          />
+          <button id="cityBtn">Get Weather</button>
+        </div>
+
+        <div class="divider">
+          <span>or</span>
+        </div>
+
+        <button id="locationBtn" class="secondary-btn">
+          Use My Location
+        </button>
+      </section>
+
+      <section id="result" class="result-card hidden">
+        <!-- Weather result will be injected here by JS -->
+      </section>
+
+      <section id="error" class="error hidden">
+        <!-- Error messages will appear here -->
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <p>Powered by OpenWeatherMap & AWS Lambda</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
