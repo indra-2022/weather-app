@@ -5,7 +5,8 @@ A modern and responsive web application built to deliver a smooth user experienc
 ## 🌐 Live Demo
 
 🔗 **Project URL:**
-https://d26xmfk3oqkblo.cloudfront.net
+Currently Not availval due to AWS subscription ended.
+will move this to a Free host shortly.
 
 ---
 
